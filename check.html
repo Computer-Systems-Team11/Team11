@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team11_Coding Platform - 정답 확인</title>
+    <link rel="stylesheet" href="check.css" />
+  </head>
+  <body>
+    <div class="status-check">
+      <img src="하냥이.png" class="title-image" alt="하냥이" />
+      <p>Username:</p>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="아이디를 입력하세요."
+      />
+      <p>Password:</p>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="비밀번호를 입력하세요."
+      />
+      <p>Submission ID:</p>
+      <input
+        type="text"
+        id="submission-id"
+        name="submission-id"
+        placeholder="제출 ID를 입력하세요."
+      />
+      <p><button type="submit" id="check-status-btn">Check</button></p>
+      <div id="results"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="check.js"></script>
+  </body>
+</html>

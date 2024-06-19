@@ -1,0 +1,68 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #d8effdb5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.title-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: center;
+}
+
+.login p {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+
+.login input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login input[type="code"] {
+  height: 200px;
+  padding: 15px;
+  resize: vertical;
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #5c7dd2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login button:hover {
+  background-color: #082d9c;
+}
